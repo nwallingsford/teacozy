@@ -1,4 +1,21 @@
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: black;
+  border-bottom: solid 1px seashell;
   height: 69px;
+  position: fixed;
+  width: 100%;
+}
+
+img.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
 }
