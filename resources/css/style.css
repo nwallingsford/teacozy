@@ -32,6 +32,8 @@ nav a {
 }
 
 .main-container {
+  margin: auto;
+  width: 1200px;
 }
 
 .box {
@@ -41,4 +43,10 @@ nav a {
   background: lightgrey;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.box-content {
+  border: solid 1px black;
+  text-align: center;
 }
