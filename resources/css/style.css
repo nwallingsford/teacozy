@@ -37,7 +37,7 @@ nav a {
   width: 1200px;
 }
 
-.box {
+.flex-box {
   height: 700px;
   background: url("../images/img-mission-background.jpg");
   border: solid 1px black;
@@ -51,4 +51,34 @@ nav a {
   background: black;
   border: solid 1px black;
   text-align: center;
+}
+
+.product {
+  border: solid 1px black;
+  background: dimgrey;
+  width: 1000px;
+  margin: auto;
+}
+
+.product-title {
+  text-align: center;
+}
+
+.product-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-item img {
+  height: 200px;
+  width: 300px;
+}
+
+.product-item h4 {
+    margin-top: 10px;
 }
