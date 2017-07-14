@@ -1,5 +1,8 @@
 body {
   /*background-color: black;*/
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
 }
 
 header {
@@ -25,8 +28,6 @@ nav {
 }
 
 nav a {
-  font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   padding: 0px 10px;
 }
@@ -38,15 +39,16 @@ nav a {
 
 .box {
   height: 700px;
+  background: url("../images/img-mission-background.jpg");
   border: solid 1px black;
   margin-top: 70px;
-  background: lightgrey;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .box-content {
+  background: black;
   border: solid 1px black;
   text-align: center;
 }
