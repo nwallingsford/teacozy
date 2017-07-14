@@ -1,3 +1,7 @@
+body {
+  /*background-color: black;*/
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -25,4 +29,16 @@ nav a {
   font-size: 22px;
   color: seashell;
   padding: 0px 10px;
+}
+
+.main-container {
+}
+
+.box {
+  height: 700px;
+  border: solid 1px black;
+  margin-top: 70px;
+  background: lightgrey;
+  display: flex;
+  flex-direction: column;
 }
