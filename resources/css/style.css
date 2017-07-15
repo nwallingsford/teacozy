@@ -82,3 +82,24 @@ nav a {
 .product-item h4 {
     margin-top: 10px;
 }
+
+.locations {
+  background: url("../images/img-locations-background.jpg");
+  height: 500px;
+}
+
+.location-title {
+    text-align: center;
+}
+
+.location-flexbox {
+  display: flex;
+}
+
+.location-item {
+    border: solid 1px black;
+    background: black;
+    width: 300px;
+    height: 300px;
+    margin: 15px 40px;
+}
