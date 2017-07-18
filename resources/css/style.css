@@ -1,21 +1,21 @@
 body {
   background-color: black;
+  color: seashell;
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
   opacity: 0.9;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: black;
   border-bottom: solid 1px seashell;
+  display: flex;
   height: 69px;
+  justify-content: space-between;
+  left: 0px;
   position: fixed;
   top: 0px;
-  left: 0px;
   width: 100%;
 }
 
@@ -39,13 +39,13 @@ nav a {
 }
 
 .flex-box {
-  height: 700px;
   background: url("../images/img-mission-background.jpg");
   border: solid 1px black;
-  margin-top: 70px;
   display: flex;
   flex-direction: column;
+  height: 700px;
   justify-content: center;
+  margin-top: 70px;
 }
 
 #box-content {
@@ -55,11 +55,11 @@ nav a {
 }
 
 .product {
-  border: solid 1px black;
   background: black;
-  width: 1000px;
+  border: solid 1px black;
   margin: auto;
   padding: 30px 0;
+  width: 1000px;
 }
 
 #product-title {
@@ -73,8 +73,8 @@ nav a {
 }
 
 .product-item {
-  text-align: center;
   padding: 10px;
+  text-align: center;
 }
 
 .product-item img {
@@ -93,8 +93,8 @@ nav a {
 }
 
 #location-title {
-  text-align: center;
   padding-top: 10px;
+  text-align: center;
 }
 
 #location-title h2 {
@@ -107,26 +107,26 @@ nav a {
 }
 
 .location-item {
-  border: solid 1px black;
   background: black;
-  width: 300px;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
   height: 300px;
+  justify-content: space-around;
   margin: 0 20px;
   opacity: 1;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  width: 300px;
 }
 
 .contact {
   background: black;
-  text-align: center;
-  height: 200px;
   display: flex;
   flex-direction: column;
+  height: 200px;
   justify-content: center;
   padding-top: 15px;
+  text-align: center;
 }
 
 footer {
