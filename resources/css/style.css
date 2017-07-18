@@ -1,8 +1,9 @@
 body {
-  /*background-color: black;*/
+  background-color: black;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
+  opacity: 0.9;
 }
 
 header {
@@ -19,8 +20,8 @@ header {
 }
 
 img.logo {
-    height: 50px;
-    padding-left: 10px;
+  height: 50px;
+  padding-left: 10px;
 }
 
 nav {
@@ -86,6 +87,7 @@ nav a {
 .locations {
   background: url("../images/img-locations-background.jpg");
   height: 500px;
+  padding-top: 30px;
 }
 
 .location-title {
@@ -113,4 +115,20 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.contact {
+  background: black;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+footer {
+  background: black;
+  display: flex;
+  padding-left: 20px;
 }
