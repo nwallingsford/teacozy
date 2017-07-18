@@ -59,6 +59,7 @@ nav a {
   background: black;
   width: 1000px;
   margin: auto;
+  padding: 30px 0;
 }
 
 .product-title {
@@ -68,11 +69,12 @@ nav a {
 .product-flexbox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .product-item {
   text-align: center;
+  padding: 10px;
 }
 
 .product-item img {
